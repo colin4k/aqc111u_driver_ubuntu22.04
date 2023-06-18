@@ -16,7 +16,7 @@ apt-get install flex bison -y
 ## Build from sources:
 * Unpack sources to temporary folder (e.g `tar -xf pacific.tar.gz`).
   It will create Linux/ directory 
-* Change directory (`cd Linux`)
+* Change current directory
 * Perform `make` 
 
 ## Sign your driver
