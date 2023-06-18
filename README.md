@@ -1,6 +1,7 @@
 # AQC111U USB driver for Ubuntu 22.04
 
 ## Prepare
+* Disable `Secure Boot` in BIOS
 * Uninstall and reinstall current linux header source 
 
 This step is very important, you must do the following before you compile the driver, or when you want to load the driver, you would got an error like `insmod: ERROR: could not insert module aqc111.ko: Invalid module format`, if you try `dmesg` command, you will get detailed message like `module: x86/modules: Skipping invalid relocation target, existing value is nonzero for type 1, loc 0000000028f34265, val ffffffffc1679a7b`.
